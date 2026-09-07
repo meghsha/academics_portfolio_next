@@ -152,7 +152,7 @@ export function ConferencesList() {
                     {conf.title}
                   </h3>
                   <p className="mt-1 text-sm text-text-muted">{conf.event}</p>
-                  {conf.location && <p className="mt-1 text-sm text-text-muted">{conf.location}</p>}
+                  {/* {conf.location && <p className="mt-1 text-sm text-text-muted">{conf.location}</p>} */}
                 </div>
                 <div className="flex items-center gap-3">
                   <Badge variant="gold">{conf.role}</Badge>
