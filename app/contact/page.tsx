@@ -8,7 +8,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Contact",
   description:
-    "Book a consultation with Chetna Vats — Clinical Nutritionist and PhD Scholar. Get in touch for personalized nutrition care.",
+    "Book a consultation with Chetna Vats — Nutrition Researcher and Clinical Dietitian. Get in touch for personalized nutrition care.",
   path: "/contact",
 });
 

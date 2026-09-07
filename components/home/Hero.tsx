@@ -42,7 +42,7 @@ export function Hero() {
                     Chetna Vats
                   </p>
                   <p className="mt-1 text-sm text-text-muted">
-                    Clinical Nutritionist & PhD Scholar
+                    {siteConfig.title}
                   </p>
                 </div>
               </div>

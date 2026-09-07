@@ -19,7 +19,7 @@ export function Header() {
             {siteConfig.name}
           </span>
           <span className="hidden text-[10px] uppercase tracking-[0.15em] text-text-muted sm:block">
-            Clinical Nutritionist & PhD Scholar
+            {siteConfig.title}
           </span>
         </Link>
 

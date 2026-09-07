@@ -11,7 +11,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "About",
   description:
-    "Learn about Chetna Vats — Clinical Nutritionist, PhD Scholar, and specialist in evidence-based nutrition integrated with Ayurvedic dietary principles.",
+    "Learn about Chetna Vats — Nutrition Researcher and Clinical Dietitian specializing in integrative nutrition, Ayurvedic dietary science, gut health, and inflammation research.",
   path: "/about",
 });
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="Chetna Vats"
-        description="Clinical Nutritionist and PhD Scholar dedicated to bridging evidence-based nutrition with Ayurvedic dietary science."
+        description="Nutrition Researcher and Clinical Dietitian dedicated to bridging integrative nutrition with Ayurvedic dietary science."
       />
       <Biography />
       <EducationTimeline />

@@ -49,13 +49,13 @@ export const whyChooseReasons = [
 ] as const;
 
 export const featuredResearch = {
-  title: "Sattvik Dietary Proxies & Systemic Inflammation",
+  title: "Effects of Sattvic Diet on Chronic Low-Grade Inflammation",
   description:
-    "Investigating how traditional Sattvik dietary patterns serve as proxies for anti-inflammatory nutrition, bridging Ayurvedic food classification with measurable biomarkers of systemic inflammation.",
+    "Quasi-experimental two-arm pre-post intervention study investigating the effects of a Sattvic dietary intervention on health outcomes, chronic low-grade inflammation, metabolic syndrome, and gut health markers.",
   highlights: [
-    "Novel framework linking Ayurvedic food gunas to inflammatory markers",
-    "Clinical validation of Sattvik dietary patterns",
-    "Implications for preventive and therapeutic nutrition",
+    "Operationalisation of Sattvic dietary concept for research application",
+    "Development of structured food classification and assessment frameworks",
+    "Exploration of Prakriti-based individual responses to dietary interventions",
   ],
   href: "/research",
 } as const;
@@ -72,22 +72,28 @@ export const biography = {
 
 export const educationTimeline = [
   {
-    year: "Present",
-    title: "PhD — Clinical Nutrition",
-    institution: "Research on Sattvik Dietary Proxies & Systemic Inflammation",
-    description: "Ongoing doctoral research integrating Ayurvedic dietetics with inflammation biomarkers.",
+    year: "2025–Present",
+    title: "Ph.D. in Food & Nutrition",
+    institution: "Lady Irwin College, University of Delhi",
+    description: "Research Title: Quasi-Experimental Two-Arm Pre–Post Intervention Study to Explore the Effects of a Sattvic Diet on Health and Chronic Low-Grade Inflammation",
   },
   {
-    year: "20XX",
-    title: "M.Sc. — Clinical Nutrition",
-    institution: "University Name",
-    description: "Advanced training in therapeutic nutrition, clinical assessment, and dietary intervention design.",
+    year: "2022–2024",
+    title: "M.Sc. Nutrition & Dietetics",
+    institution: "Symbiosis Institute of Health Sciences, Symbiosis International University",
+    description: "Specialisation: Clinical Nutrition & Dietetics | Final CGPA: 8.12/10 | Thesis: Association of Chrononutrition, Emotional Eating, and Stress Perception Among College Students in Pune",
   },
   {
-    year: "2021",
-    title: "B.Sc. — Home Science (Dietetics)",
-    institution: "Govt. Home Science College, Chandigarh",
-    description: "Punjab University - 81.62% (till 4th semester)",
+    year: "2021–2022",
+    title: "P.G. Diploma in Nutrition & Dietetics",
+    institution: "Government Home Science College, Chandigarh, Panjab University",
+    description: "Score: 76.34%",
+  },
+  {
+    year: "2018–2021",
+    title: "B.Sc. Home Science (Dietetics)",
+    institution: "Government Home Science College, Chandigarh, Panjab University",
+    description: "Score: 80.5% | Project: Menstrual Hygiene and Anemia Intervention Program",
   },
   {
     year: "2017",
@@ -105,8 +111,28 @@ export const educationTimeline = [
 
 export const academicAchievements = [
   {
-    title: "2nd Position in Applied Zoology",
-    description: "Scored 2nd position in Applied Zoology in first year in college.",
+    title: "UGC-NET June 2024",
+    description: "Junior Research Fellowship (JRF) + Assistant Professorship - 1st Position",
+  },
+  {
+    title: "AFSTI Food Competition",
+    description: "1st Position",
+  },
+  {
+    title: "Best Recipe Competition",
+    description: "2nd Position - National Institute of Naturopathy, Ministry of AYUSH, Government of India",
+  },
+  {
+    title: "Weaning Food Competition",
+    description: "2nd Position - Max Hospital, Mohali",
+  },
+  {
+    title: "Punjab University Inter-zonal Youth & Heritage Festival",
+    description: "3rd Position",
+  },
+  {
+    title: "Letter of Appreciation (Class 10th)",
+    description: "Received a \"letter of appreciation\" from honorable former Education Minister Smriti Irani for excellent performance in class 10th.",
   },
   {
     title: "Best Recipe Award",
@@ -115,26 +141,6 @@ export const academicAchievements = [
   {
     title: "Weaning Food Innovation",
     description: "2nd position for making \"Weaning food\" at Max Hospital.",
-  },
-  {
-    title: "Letter of Appreciation (Class 10th)",
-    description: "Received a \"letter of appreciation\" from honorable former Education Minister Smriti Irani for excellent performance in class 10th.",
-  },
-  {
-    title: "National Conference Participation",
-    description: "Attended \"National Conference AIDSCON-9\" in 2019.",
-  },
-  {
-    title: "Nutrition Education Program",
-    description: "Attended a two day \"Nutrition Education Program\" by Kellog's in 2018.",
-  },
-  {
-    title: "Short Nutrition Course",
-    description: "Completed a short Nutrition course by \"The Health Sciences Academy\".",
-  },
-  {
-    title: "Certificate of Appreciation",
-    description: "A Certificate of appreciation by former education minister \"Mrs. Smriti Irani\".",
   },
 ] as const;
 
@@ -205,71 +211,69 @@ export const clinicalServices = [
 
 export const phdResearch = {
   title: "PhD Research",
-  subtitle: "Sattvik Dietary Proxies and Systemic Inflammation",
+  subtitle: "Sattvic Diet, Chronic Inflammation & Health",
   overview:
-    "This doctoral research investigates whether traditional Ayurvedic Sattvik food classifications can serve as reliable dietary proxies for anti-inflammatory nutrition patterns, validated through contemporary biomarker analysis.",
+    "Doctoral research exploring the effects of a Sattvic dietary intervention — a predominantly vegetarian, whole-food, plant-based and minimally processed dietary pattern rooted in Ayurvedic dietary principles — with a focus on chronic low-grade inflammation, metabolic syndrome, gut health and Prakriti-based individual response.",
   objectives: [
-    "Develop a validated framework mapping Sattvik food categories to inflammatory biomarkers",
-    "Conduct clinical studies assessing the anti-inflammatory effects of Sattvik dietary patterns",
-    "Establish evidence-based guidelines for integrating Ayurvedic dietetics into clinical nutrition practice",
-    "Contribute to the growing body of research on traditional dietary systems and modern health outcomes",
+    "Operationalisation of the Sattvic dietary concept for research application",
+    "Development of core principles and structured food classification for Sattvic diet framework",
+    "Content validation and refinement of the Sattvic dietary framework and assessment components",
+    "Development of the dietary intervention framework and research protocol",
+    "Development of structured approaches for assessing Sattvic dietary adherence and dietary patterns",
+    "Exploration of Prakriti as a potential dimension of individual dietary response to Sattvic diet",
   ],
   methodology:
-    "Mixed-methods approach combining systematic literature review, dietary pattern analysis, clinical biomarker assessment, and statistical modeling of inflammation markers in response to Sattvik dietary interventions.",
+    "Quasi-experimental two-arm pre–post intervention study combining systematic review, dietary intervention framework development, clinical biomarker assessment, and statistical analysis of inflammation markers in response to Sattvic dietary interventions."
 } as const;
 
 export const publications = [
   {
-    title: "Sattvik Dietary Patterns and Inflammatory Markers: A Preliminary Framework",
-    authors: "Vats, C., et al.",
-    journal: "Journal of Clinical Nutrition Research",
-    year: "2025",
-    type: "Journal Article",
-  },
-  {
-    title: "Integrating Ayurvedic Food Gunas with Modern Nutritional Assessment",
+    title: "Systematic Review: Sattvic Proxy Diet & Chronic Inflammation",
     authors: "Vats, C.",
-    journal: "International Journal of Ayurveda and Integrative Medicine",
-    year: "2024",
-    type: "Review Article",
+    journal: "Systematic Review",
+    year: "2025",
+    type: "Systematic Review",
   },
   {
-    title: "Dietary Proxies for Systemic Inflammation: A Scoping Review",
-    authors: "Vats, C., et al.",
-    journal: "Nutrition Reviews",
-    year: "2024",
-    type: "Scoping Review",
+    title: "Systematic Review: Sattvic Proxy Diet & IBS",
+    authors: "Vats, C.",
+    journal: "Systematic Review",
+    year: "2026",
+    type: "Systematic Review",
+  },
+  {
+    title: "Conceptual Framework for Sattvic Diet",
+    authors: "Vats, C.",
+    journal: "Framework Development",
+    year: "2026",
+    type: "Conceptual Framework",
   },
 ] as const;
 
 export const conferences = [
   {
-    title: "Sattvik Dietary Proxies: Bridging Ayurveda and Inflammation Science",
-    event: "International Conference on Clinical Nutrition",
+    title: "Paper Presentation: Effects of Sattvic Diet on Chronic Low-Grade Inflammation",
+    event: "International Conference on Ayurveda and Integrative Approaches to Obesity & Metabolic Syndrome",
     year: "2025",
+    role: "Paper Presentation",
+  },
+  {
+    title: "Oral Presentation: Conceptual Framework for Sattvic Diet",
+    event: "11th World Ayurveda Congress",
+    year: "2026",
     role: "Oral Presentation",
-  },
-  {
-    title: "Evidence-Based Integration of Ayurvedic Dietetics in Clinical Practice",
-    event: "National Nutrition Congress",
-    year: "2024",
-    role: "Invited Speaker",
-  },
-  {
-    title: "Traditional Food Classification Systems as Inflammation Biomarker Proxies",
-    event: "Symposium on Integrative Medicine & Nutrition",
-    year: "2024",
-    role: "Poster Presentation",
+    location: "Bhubaneswar"
   },
 ] as const;
 
 export const researchInterests = [
-  "Sattvik dietary patterns and systemic inflammation",
-  "Ayurvedic food gunas and metabolic health",
-  "Dietary proxies for biomarker assessment",
-  "Integrative clinical nutrition frameworks",
-  "Traditional dietetics and modern evidence synthesis",
-  "Therapeutic nutrition for chronic inflammation",
+  "Sattvic dietary patterns and chronic low-grade inflammation",
+  "Ayurvedic food principles and gut health modulation",
+  "Prakriti-based individual responses to dietary interventions",
+  "Sattvic diet framework development and validation",
+  "Dietary proxies for inflammatory biomarker assessment",
+  "Integrative nutrition approaches for metabolic syndrome",
+  "Nutrition education and patient empowerment strategies",
 ] as const;
 
 export const foodDoctorContent = {
