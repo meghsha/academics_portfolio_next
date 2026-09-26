@@ -34,8 +34,8 @@ export function ExpertiseCards() {
         <FadeIn>
           <SectionHeading
             eyebrow="Expertise"
-            title="Areas of Specialization"
-            description="Integrating clinical nutrition science with Ayurvedic dietary wisdom for comprehensive, personalized care."
+            title="Research & Clinical Focus"
+            description="Integrating clinical nutrition science with Ayurvedic dietary wisdom."
             align="center"
             className="mx-auto mb-14"
           />

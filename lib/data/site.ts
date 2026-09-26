@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Chetna Vats",
-  title: "Nutrition Researcher | Clinical Dietitian",
+  title: "Nutrition Researcher | PhD Scholar | Clinical Dietitian",
   tagline:
     "Integrative Nutrition & Complementary Medicine | Gut Health & Inflammation",
   description:
@@ -22,8 +22,7 @@ export const navigation = [
 export const credentials = [
   "Nutrition Researcher & Clinical Dietitian",
   "PhD Scholar — Food & Nutrition",
-  "Integrative Nutrition & Complementary Medicine",
-  "Gut Health & Inflammation Specialist",
+  "Integrative Nutrition & Complementary Medicine"
 ] as const;
 
 export const socialLinks = [

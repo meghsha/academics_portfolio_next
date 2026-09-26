@@ -1,7 +1,6 @@
 import { Hero, CredentialsStrip } from "@/components/home/Hero";
 import { AboutPreview } from "@/components/home/AboutPreview";
 import { ExpertiseCards } from "@/components/home/ExpertiseCards";
-import { WhyChooseMe } from "@/components/home/WhyChooseMe";
 import { FeaturedResearch } from "@/components/home/FeaturedResearch";
 import { AcademicRecognitions } from "@/components/home/AcademicRecognitions";
 import { BookConsultationCTA } from "@/components/home/BookConsultationCTA";
@@ -19,7 +18,6 @@ export default function HomePage() {
       <CredentialsStrip />
       <AboutPreview />
       <ExpertiseCards />
-      <WhyChooseMe />
       <FeaturedResearch />
       <AcademicRecognitions />
       <BookConsultationCTA />

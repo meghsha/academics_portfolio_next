@@ -1,57 +1,30 @@
 export const expertiseAreas = [
   {
-    title: "Integrative Nutrition",
-    description:
-      "Combining evidence-based clinical nutrition with Ayurvedic dietary science for holistic, personalized dietary interventions that address root causes of health concerns.",
+    title: "Sattvic Dietary Patterns",
+    description: "Conceptualising, operationalising and evaluating the Sattvic dietary pattern within contemporary nutrition research. My work explores its core dietary principles, food characteristics and application within structured dietary research.",
     icon: "nutrition",
   },
   {
-    title: "Gut Health & Inflammation",
-    description:
-      "Specialized focus on gastrointestinal health, microbiome balance, and systemic inflammation reduction through targeted dietary and lifestyle interventions.",
+    title: "Diet, Inflammation & Gut Health",
+    description: "Investigating the relationship between dietary patterns, chronic low-grade inflammation and gastrointestinal health, including their relevance to IBS and metabolic outcomes.",
     icon: "therapy",
   },
   {
-    title: "Sattvic Dietary Research",
-    description:
-      "Investigating the effects of Sattvic dietary patterns on chronic low-grade inflammation, metabolic health, and individual constitution-based responses through rigorous scientific inquiry.",
+    title: "Integrative & Ayurvedic Nutrition",
+    description: "Exploring Ayurvedic dietary concepts within contemporary nutrition research, with a particular focus on Sattvic dietary principles and the potential role of Prakriti in individual responses to dietary approaches.",
     icon: "research",
   },
   {
-    title: "Clinical Nutrition Consultation",
-    description:
-      "Personalized nutrition assessment, medical nutrition therapy, and ongoing support for metabolic disorders, hormonal balance, and preventive health optimization.",
+    title: "Clinical Nutrition & Dietetics",
+    description: "Clinical nutrition assessment, medical nutrition therapy and dietary management across health conditions, informed by clinical training and experience in clinical and hospital settings.",
     icon: "nutrition",
-  },
-] as const;
-
-export const whyChooseReasons = [
-  {
-    title: "Research-Backed Expertise",
-    description:
-      "PhD research at Lady Irwin College, University of Delhi, ensures recommendations are based on the latest scientific findings in nutrition and inflammation.",
-  },
-  {
-    title: "Integrative Methodology",
-    description:
-      "Unique synthesis of Ayurvedic dietary principles with evidence-based clinical nutrition for comprehensive, personalized care.",
-  },
-  {
-    title: "Clinical & Research Experience",
-    description:
-      "Extensive background in clinical nutrition, research, and education across prestigious institutions including AIIA, PGIMER, and Symbiosis.",
-  },
-  {
-    title: "Personalized Nutrition Planning",
-    description:
-      "Individualized dietary protocols tailored to your unique health profile, constitution, metabolic status, and lifestyle factors.",
   },
 ] as const;
 
 export const featuredResearch = {
   title: "Effects of Sattvic Diet on Chronic Low-Grade Inflammation",
   description:
-    "Quasi-experimental two-arm pre-post intervention study investigating the effects of a Sattvic dietary intervention on health outcomes, chronic low-grade inflammation, metabolic syndrome, and gut health markers.",
+    "Quasi-experimental two-arm pre-post intervention study investigating the effects of a Sattvic dietary intervention on chronic low-grade inflammation in patients with IBS",
   highlights: [
     "Operationalisation of Sattvic dietary concept for research application",
     "Development of structured food classification and assessment frameworks",
@@ -61,12 +34,11 @@ export const featuredResearch = {
 } as const;
 
 export const biography = {
-  intro:
-    "Chetna Vats is a Nutrition Researcher and Clinical Dietitian whose work bridges integrative nutrition, Ayurvedic dietary science, and clinical research. With expertise in gut health, inflammation, and personalized dietary interventions, she specializes in evidence-based approaches that honor both traditional wisdom and modern science.",
+  intro: "Chetna Vats is a Nutrition Researcher and Clinical Dietitian pursuing her PhD in Food & Nutrition at Lady Irwin College in collaboration with All India Institute of Ayurveda (AIIA), University of Delhi. Her research interests lie at the intersection of nutrition, traditional dietary systems and health, with a particular focus on Sattvic dietary patterns, chronic low-grade inflammation, gut health and metabolic health.",
   paragraphs: [
-    "Her clinical practice focuses on personalized nutrition consulting, medical nutrition therapy, and dietary management for metabolic health, chronic inflammation, gut health, and lifestyle-related disorders. Drawing from her research on Sattvic dietary patterns and Ayurvedic principles, she creates individualized treatment plans that address root causes while promoting sustainable health outcomes.",
-    "As a PhD Scholar at Lady Irwin College, University of Delhi, Vats is investigating the effects of a Sattvic dietary intervention on chronic low-grade inflammation, metabolic syndrome, and gut health. Her research involves operationalising the Sattvic dietary concept, developing structured food classification frameworks, and exploring Prakriti-based individual responses to dietary interventions.",
-    "Beyond clinical practice and research, she is committed to nutrition education and evidence-based content creation, having founded The Food Doctor platform to make integrative nutrition accessible to diverse audiences through individualised counselling, group workshops, and educational resources.",
+    "Her doctoral research focuses on developing a research-oriented framework for the Sattvic diet and exploring its potential role in health and disease. Her work involves operationalising the Sattvic dietary concept, developing structured food classifications and dietary assessment approaches, and investigating how individual characteristics such as Prakriti may influence responses to dietary interventions. Alongside her doctoral work, she has been involved in systematic reviews and clinical nutrition research, with experience spanning the All India Institute of Ayurveda, PGIMER and other academic and clinical settings.",
+    "Beyond research and clinical nutrition, Chetna has always been closely connected to food in a more creative sense. Cooking, developing recipes and exploring food as both a scientific and cultural subject are interests that have remained a part of her journey. She has also participated in creative and cultural activities, including the Punjab University Inter-zonal Youth & Heritage Festival, and has been involved in nutrition communication and content creation.",
+    "For her, nutrition sits at an interesting intersection of science, food, culture and everyday life - and she hopes to continue exploring that intersection through research, clinical practice and academic collaboration."  
   ],
 } as const;
 

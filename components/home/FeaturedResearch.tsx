@@ -54,9 +54,9 @@ export function FeaturedResearch() {
                 <p className="text-xs font-medium uppercase tracking-[0.15em] text-gold">
                   PhD Research Focus
                 </p>
-                <blockquote className="mt-4 font-serif text-2xl leading-snug text-charcoal md:text-3xl">
-                  &ldquo;Validating ancient dietary wisdom through modern
-                  inflammation science.&rdquo;
+                <blockquote className="mt-4 font-serif text-2xl leading-snug text-charcoal md:text-2xl">
+                  &ldquo;Conceptualising Sattvic Dietary framework through modern
+                  nutrition science.&rdquo;
                 </blockquote>
                 <p className="mt-6 text-sm text-text-muted">
                   — Chetna Vats, PhD Scholar
