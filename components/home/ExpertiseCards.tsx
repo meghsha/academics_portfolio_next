@@ -34,7 +34,7 @@ export function ExpertiseCards() {
         <FadeIn>
           <SectionHeading
             eyebrow="Expertise"
-            title="Research & Clinical Focus"
+            title="Current Research & Clinical Focus"
             description="Integrating clinical nutrition science with Ayurvedic dietary wisdom."
             align="center"
             className="mx-auto mb-14"

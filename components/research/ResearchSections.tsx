@@ -63,7 +63,7 @@ export function SattvikDietaryProxies() {
   return (
     <section
       className="border-y border-beige bg-gradient-to-br from-sage/5 to-beige/15 py-16 md:py-20"
-      aria-labelledby="sattvik-heading"
+      aria-labelledby="sattvic-heading"
     >
       <Container>
         <div className="mx-auto max-w-3xl text-center">
@@ -72,14 +72,14 @@ export function SattvikDietaryProxies() {
               Core Research Theme
             </Badge>
             <h2
-              id="sattvik-heading"
+              id="sattvic-heading"
               className="font-serif text-3xl text-charcoal md:text-4xl"
             >
-              Sattvik Dietary Proxies & Systemic Inflammation
+              Sattvic Dietary Proxies & Systemic Inflammation
             </h2>
             <p className="mt-6 text-base leading-relaxed text-text-muted">
               This research explores whether the ancient Ayurvedic classification
-              of Sattvik foods — those considered pure, light, and
+              of Sattvic foods — those considered pure, light, and
               health-promoting — can serve as reliable dietary proxies for
               anti-inflammatory eating patterns, validated through contemporary
               biomarker analysis including CRP, IL-6, and TNF-α.

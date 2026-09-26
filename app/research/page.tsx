@@ -11,7 +11,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Research",
   description:
-    "PhD research on Sattvik dietary proxies and systemic inflammation. Publications, conferences, and research interests of Chetna Vats.",
+    "PhD research on Sattvic dietary proxies and systemic inflammation. Publications, conferences, and research interests of Chetna Vats.",
   path: "/research",
 });
 

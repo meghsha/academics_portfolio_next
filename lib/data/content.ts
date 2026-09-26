@@ -46,8 +46,8 @@ export const educationTimeline = [
   {
     year: "2025–Present",
     title: "Ph.D. in Food & Nutrition",
-    institution: "Lady Irwin College, University of Delhi",
-    description: "Research Title: Quasi-Experimental Two-Arm Pre–Post Intervention Study to Explore the Effects of a Sattvic Diet on Health and Chronic Low-Grade Inflammation",
+    institution: "Lady Irwin College, All India Institute of Ayurveda, University of Delhi",
+    description: "Research Title: Quasi-experimental two-arm pre-post intervention study investigating the effects of a Sattvic dietary intervention on chronic low-grade inflammation in patients with IBS",
   },
   {
     year: "2022–2024",
@@ -87,6 +87,10 @@ export const academicAchievements = [
     description: "Junior Research Fellowship (JRF) + Assistant Professorship - 1st Position",
   },
   {
+    title: "Letter of Appreciation (Class 10th)",
+    description: "Received a \"letter of appreciation\" from honorable former Education Minister Smriti Irani for excellent performance in class 10th.",
+  },
+  {
     title: "AFSTI Food Competition",
     description: "1st Position",
   },
@@ -95,16 +99,8 @@ export const academicAchievements = [
     description: "2nd Position - National Institute of Naturopathy, Ministry of AYUSH, Government of India",
   },
   {
-    title: "Weaning Food Competition",
-    description: "2nd Position - Max Hospital, Mohali",
-  },
-  {
     title: "Punjab University Inter-zonal Youth & Heritage Festival",
     description: "3rd Position",
-  },
-  {
-    title: "Letter of Appreciation (Class 10th)",
-    description: "Received a \"letter of appreciation\" from honorable former Education Minister Smriti Irani for excellent performance in class 10th.",
   },
   {
     title: "Best Recipe Award",
@@ -279,10 +275,10 @@ export const foodDoctorContent = {
 
 export const blogPosts = [
   {
-    slug: "understanding-sattvik-diet",
-    title: "Understanding the Sattvik Diet: Science Behind Ancient Wisdom",
+    slug: "understanding-sattvic-diet",
+    title: "Understanding the Sattvic Diet: Science Behind Ancient Wisdom",
     excerpt:
-      "Exploring how traditional Sattvik food classifications align with modern anti-inflammatory nutrition research.",
+      "Exploring how traditional Sattvic food classifications align with modern anti-inflammatory nutrition research.",
     date: "March 2025",
     category: "Research",
     readTime: "8 min read",

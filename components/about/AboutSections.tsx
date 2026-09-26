@@ -1,3 +1,6 @@
+"use client";
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Timeline } from "@/components/ui/Timeline";
@@ -58,28 +61,86 @@ export function EducationTimeline() {
 }
 
 export function AcademicAchievements() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const toggleAccordion = (index: number) => {
+    setOpenIndex((current) => (current === index ? null : index));
+  };
+
   return (
-    <section className="py-16 md:py-20" aria-labelledby="achievements-heading">
+    <section
+      className="py-16 md:py-20"
+      aria-labelledby="achievements-heading"
+    >
       <Container>
         <FadeIn>
           <SectionHeading
             eyebrow="Achievements"
-            title="Academic & Professional Milestones"
+            title="Awards and Honors"
           />
         </FadeIn>
-        <ul className="mt-10 grid gap-4 sm:grid-cols-2">
-          {academicAchievements.map((achievement, index) => (
-            <FadeIn key={achievement.title} delay={index * 0.05}>
-              <li className="flex items-start gap-3 rounded-sm border border-beige bg-ivory p-5">
-                <span
-                  className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-gold"
-                  aria-hidden="true"
-                />
-                <span className="text-sm text-text-muted">{achievement.title}</span>
-              </li>
-            </FadeIn>
-          ))}
-        </ul>
+
+        <div className="mt-10 grid items-start gap-4 sm:grid-cols-2">
+          {academicAchievements.map((achievement, index) => {
+            const isOpen = openIndex === index;
+            return (
+              <FadeIn key={achievement.title} delay={index * 0.05}>
+                <div className="overflow-hidden rounded-sm border border-beige bg-ivory">
+                  {/* Accordion Header */}
+                  <button
+                    type="button"
+                    onClick={() => toggleAccordion(index)}
+                    aria-expanded={isOpen}
+                    className="
+                      flex w-full items-center gap-3
+                      p-5 text-left
+                      transition-colors duration-200
+                      hover:bg-beige/20
+                    "
+                  >
+                    {/* Gold dot */}
+                    <span
+                      className="h-2 w-2 shrink-0 rounded-full bg-gold"
+                      aria-hidden="true"
+                    />
+                    {/* Title */}
+                    <span className="flex-1 text-sm text-text-muted">
+                      {achievement.title}
+                    </span>
+                    {/* Arrow */}
+                    <ChevronDown
+                      size={17}
+                      className={`
+                        shrink-0 text-sage
+                        transition-transform duration-300
+                        ${isOpen ? "rotate-180" : ""}
+                      `}
+                    />
+                  </button>
+                  {/* Accordion Content */}
+                  <div
+                    className={`
+                      grid transition-all duration-300 ease-in-out
+                      ${
+                        isOpen
+                          ? "grid-rows-[1fr] opacity-100"
+                          : "grid-rows-[0fr] opacity-0"
+                      }
+                    `}
+                  >
+                    <div className="overflow-hidden">
+                      <div className="border-t border-beige/70 px-5 py-4">
+                        <p className="pl-5 text-sm leading-relaxed text-text-muted">
+                          {achievement.description}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </FadeIn>
+            );
+          })}
+        </div>
       </Container>
     </section>
   );
